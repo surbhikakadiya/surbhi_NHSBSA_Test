@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nhs-cucumber-freamwork" />
         <module name="surbhi_NHSBSA" />
+        <module name="surbhi_NHSBSA_Test" />
       </profile>
     </annotationProcessing>
   </component>
