@@ -10,7 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BirthPage8 extends Utility
 
-{
+{//
+    //
     private static final Logger log = LogManager.getLogger(BirthPage8.class.getName());
 
     public BirthPage8() {
