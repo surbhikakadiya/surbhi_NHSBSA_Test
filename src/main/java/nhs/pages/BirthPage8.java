@@ -9,7 +9,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class BirthPage8 extends Utility
-{
+
+{//
+    //
     private static final Logger log = LogManager.getLogger(BirthPage8.class.getName());
 
     public BirthPage8() {
@@ -30,5 +32,9 @@ public class BirthPage8 extends Utility
     public void clickOnNextButtonOfPregnacy() {
         clickOnElement(nextbuttonforbirthpage);
         log.info("Clicking on next " + nextbuttonforbirthpage.toString());
+    }
+
+    public static void main(String[] args) {
+        System.out.println("1 may");
     }
 }
