@@ -17,15 +17,15 @@ public class ArmedForcesPage9 extends Utility {
 
     @CacheLookup
     @FindBy(xpath = "//input[@id='radio-no']")
-    WebElement noarmedforce;
+    WebElement  force;
     @CacheLookup
     @FindBy(xpath = "//input[@id='next-button']")
     WebElement nextbuttonforarmedforce;
 
     //injury or illlness
     public void clickOnInjuryOrIllness() {
-        clickOnElement(noarmedforce);
-        log.info("Clicking on no " + noarmedforce.toString());
+        clickOnElement(force);
+        log.info("Clicking on no " + force.toString());
     }
     public void clickOnNextButtonOfNoArmedForce() {
         clickOnElement(nextbuttonforarmedforce);
